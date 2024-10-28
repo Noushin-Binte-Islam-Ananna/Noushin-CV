@@ -1,0 +1,72 @@
+body{
+    width: 50%; 
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+}
+img{
+    width: 192px;
+    height: 192px;
+    position: top;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+p{
+    text-align: justify;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; 
+}
+.info-list {
+    display: table; /* Behaves like a table */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: table-row; /* Each set of label and value is a row */
+}
+
+.label, .colon, .value {
+    display: table-cell; /* Each part is a cell */
+    padding: 5px 10px;
+}
+
+.label {
+    text-align: right; /* Aligns label to the right */
+    font-weight: bold;
+}
+
+.colon {
+    text-align: center; /* Center the colon */
+    width: 10px; /* Fixed width for the colon column */
+}
+
+.value {
+    text-align: left; /* Align the value to the left */
+}
+#fields{
+    border: 2px solid black;
+    background-color: black; 
+    color: aliceblue; 
+    position: static;  
+}
+.container {
+    display: flex;               /* Use flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+    max-width: 600px;           /* Set a max width for the container */
+}
+
+.column {
+    flex: 1;                    /* Each column takes equal space */
+    margin: 0 10px;            /* Space between columns */
+}
